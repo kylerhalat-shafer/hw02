@@ -1,11 +1,11 @@
 ---
-title: "hw02"
+title: "Hw02"
 author: "Kyler Halat-Shafer"
 date: "4/26/2017"
 output: html_document
 ---
 
-```
+```##Code 
 ##install.packages("ggplot2")
 
 housing <- read.csv("/Users/Kyler.HalatShafer/Desktop/RGraphics/dataSets/landdata-states.csv")
@@ -138,7 +138,17 @@ ggplot(home.land.byyear,
   geom_line()
 
 
+```
 
 ```
 
+## Including Plots
 
+You can also embed plots, for example:
+
+```
+hist(housing$Home.Value)
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
